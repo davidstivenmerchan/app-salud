@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>LOGIN</title>
+    <script src="https://kit.fontawesome.com/949998deef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="cajaMax">
+        <div class="div1">
+            <div class="div11">
+                <h1>Login</h1>
+                <p>
+                    Our application is much better <br> when you have an account.
+                </p>
+                <p>
+                    Get yourself one
+                </p>
+                <div class="div111">
+                    <i class="fa-solid fa-capsules"></i>
+                    <h6>My App We take Care For You</h6>
+                </div>     
+            </div>       
+        </div>
+        <div class="div2">
+            <form action="php/login.php" autocomplete="off" method="post">
+                <label for="">USERNAME</label >
+                <input type="text" name="usuario">
+                <label for="">PASSWORD</label >
+                <input type="password" name="clave">
+                <div class="check">
+                    <input type="checkbox" name="" id="check">
+                    <label class='enunciado' for="check">Remember Me  <strong> My Account</strong></label>      
+                </div>
+                <div class="botones">
+                    <input type="submit" value="LOGIN" name="ingresar">
+                    <p>Or</p>
+                    <a href="pages/registrar.html">Sign Up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

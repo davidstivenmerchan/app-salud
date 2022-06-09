@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>SIGN UP</title>
+    <script src="https://kit.fontawesome.com/949998deef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/registrar.css">
+</head>
+<body>
+    <div class="cajaMax">
+        <div class="div1">
+            <div class="div11">
+                <h1>SIGN UP</h1>
+                <p>
+                    Welcome to our application, <br> you must sign up for login.
+                </p>
+                <p>
+                    We work together for YOU
+                </p>
+                <div class="div111">
+                    <i class="fa-solid fa-capsules"></i>
+                    <h6>My App We take Care For You</h6>
+                </div>
+            </div>
+        </div>
+        <div class="div2">
+            <form action="../php/registro.php" autocomplete="off" method="post">
+                <div class="form1">
+                    <div>
+                        <label for="">NAMES</label >
+                        <input type="text" required name="nombre">
+                    </div>
+                    <div>
+                        <label for="">LAST NAMES</label >
+                        <input type="text" required name="apellido">
+                    </div>
+                </div>
+                <div class="form1">
+                    <div>
+                        <label for="">N° IDENTIFICATION</label >
+                        <input type="text" required name="identificacion">
+                    </div>
+                    <div>
+                        <select id="" name="tip_doc">
+                            <option value="">TYPE IDENTIFICATION</option>
+                            <option value="1">CC</option>
+                            <option value="2">TI</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form1">
+                    <div>
+                        <label for="">EDAD</label >
+                        <input type="number" min="18" required name="edad">
+                    </div>
+                    <div>
+                        <label for="">EMAIL</label >
+                        <input type="text" required name="email">
+                    </div>
+            </div>
+            <div class="form1">
+                <div>
+                    <label for="">N° NUMBER</label >
+                    <input type="number" min="18" name="numero">
+                </div>
+                <div>
+                    <label for="">PASSWORD</label >
+                    <input type="text" required name="password">
+                </div>
+
+            </div>
+                <div class="check">
+                    <input type="checkbox" name="" id="check">
+                    <label class='enunciado' for="check">By signing up I agree with  <strong> terms and conditions</strong></label>
+                </div>
+                <div class="botones">
+                    <input type="submit" value="SIGN UP" name="enviar">
+                    <p>Or</p>
+                    <a href="../index.html">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
