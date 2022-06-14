@@ -66,7 +66,9 @@ if($_SESSION['tipo_usu'] == 1){
                     <h4>Indicadores de Salud</h4>
                 </div>
                 <div class="controles">
+                <a href="citas.php?var=<?php echo $cedula?>">
                     <h4>Constroles</h4>
+                </a>
                 </div>
             </div>
         </div>
