@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(7, 180, 7,0.5);
+
+}
+.papa{
+    text-align: center;
+    padding: 10px 30px; 
+    width: 90%;
+    border: solid green 2px;
+    border-radius: 20px;
+    background: white;
+}
+.form1 div{
+    width: 50%;
+}
+.form1{
+    display: flex;
+    margin: 20px 10px;
+    width: 100%;
+}
+.form1 label{
+    display: block;
+    color:  gray;
+}
+.form1 input{
+    display: inline;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid gray ;
+    outline: none;
+}
+.form1 div select{
+    width: 80%;
+    margin-top: 21px;
+    border: none;
+    border-bottom: 1px solid gray ;
+    outline: none;
+    color: grey;
+}
+.check{
+    margin-top: 60px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+.check strong{
+    color: rgb(7, 180, 7);
+}
+.check input{
+    margin: 10px;
+}
+.check label{
+    margin: 0px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background: rgb(7, 180, 7);
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.botones{
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background: white;
+    border: solid 1px rgb(7, 180, 7);
+    color: rgb(7, 180, 7)
+}
+.botones p{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.botones a{
+    margin-left: 10px;
+    margin-top: 35px;
+    text-decoration: none;
+    color: rgb(7, 180, 7);
+    font-weight: bold;
+    transition: .5s;
+
+}
+.botones a:hover{
+    color: black;
+}

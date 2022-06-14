@@ -74,7 +74,9 @@ if($_SESSION['tipo_usu'] == 1){
 
             <div class="on3">
                 <div class="familia">
-                    <h4>Registrar Usuarios</h4>
+                    <a href="registrar_usuarios.html">
+                        <h4>Registrar Usuarios</h4>
+                    </a> 
                 </div>
                 <div class="usuarios">
                     <a href="ver_usuarios.html">
