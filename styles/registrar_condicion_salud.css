@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+    display: flex;
+    margin: 10px;
+    width: 90%;
+    height: 80vh;
+    justify-content: center;
+    align-items:center;
+}
+.contenedor div{
+    margin: 20px;
+}
+.formulario{
+    width: 40%;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+}
+.formulario form input,select{
+    outline: none;
+    width: 70%;
+    margin: 10px 35px;
+    height: 25px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.formulario form input[type='submit']{
+    background: rgb(7, 180, 7);
+    color: white;
+    border: transparent solid 2px;
+    height: 35px;
+    transition: 1s;
+}
+.formulario form input[type='submit']:hover{
+    border: solid 2px rgb(7, 180, 7);
+    color: rgb(7, 180, 7);
+    background: white;
+    cursor: pointer;
+}
+.tabla{
+    width: 100%;
+    border: solid 2px green;
+}
+.tabla table{
+    width: 100%;
+    border: solid 2px white;
+    border-spacing: 0px;
+}
+.tabla table th,td{
+    width: 100px;
+    border: solid 2px white;
+    padding: 10px;
+    text-align: center;
+    
+}
+.tabla table th{
+    background: rgb(7, 180, 7);
+    color: white;
+}

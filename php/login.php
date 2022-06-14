@@ -25,9 +25,16 @@ if (isset($_POST['ingresar'])){
         $_SESSION['clave'] = $datos['password'];
         $_SESSION['tipo_doc'] = $datos['id_tipo_docu'];
 
-        echo "<script> alert('Inicio Sesion Correctamente');
-          window.location= '../pages/onboarding.php';
-         </script>";
+        if($_SESSION['tipo_usu'] == 1){
+            echo "<script> alert('Inicio Sesion Correctamente (niños)');
+            window.location= '../pages/onboarding_niños.php';
+            </script>";
+        }else{
+            echo "<script> alert('Inicio Sesion Correctamente (adulto)');
+            window.location= '../pages/onboarding.php';
+           </script>";
+
+        }
 
     }else{
        echo "<script> alert('VERIFIQUE SU CONTRASEÑA O DOCUMENTO. ERROR AL INGRESAR');

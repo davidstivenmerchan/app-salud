@@ -55,9 +55,9 @@ if($_SESSION['tipo_usu'] == 1){
                 </a>  
                 </div>
                 <div class="examenes">
-                <a href="examenes.php?var=<?php echo $cedula?>">
-                    <h4>Exámenes</h4>
-                </a> 
+                    <a href="examenes.php?var=<?php echo $cedula?>">
+                        <h4>Exámenes</h4>
+                    </a> 
                     <i class="fa-solid fa-file"></i>
                 </div>      
             </div>
@@ -66,25 +66,9 @@ if($_SESSION['tipo_usu'] == 1){
                     <h4>Indicadores de Salud</h4>
                 </div>
                 <div class="controles">
-                <a href="citas.php?var=<?php echo $cedula?>">
                     <h4>Constroles</h4>
-                </a>
                 </div>
             </div>
-
-            <div class="on3">
-                <div class="familia">
-                    <h4>Registrar Usuarios</h4>
-                </div>
-                <div class="usuarios">
-                    <a href="ver_usuarios.html">
-                    <h4>Ver mis Usuarios</h4>
-                    </a>
-                    
-                    <i class="fa-solid fa-users"></i>
-                </div>
-            </div>
-
         </div>
     </div>
 
